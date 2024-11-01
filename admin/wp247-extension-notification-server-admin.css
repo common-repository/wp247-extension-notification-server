@@ -1,0 +1,42 @@
+/*
+ * wp247 Extension Notification System Server CSS
+*/
+.wp247xns-server-notice-id { display: none; }
+
+#wp247xns_server_notice_preview_blackout {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.75);
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+	display: none;
+}
+
+#wp247xns_server_notice_preview_dialog {
+    height: auto;
+    position: fixed;
+    top: 30vh;
+    left: 10vw;
+	width: 80vw;
+    background-color: #fff;
+    z-index: 99999;
+    padding: 0 0 20px 0;
+    min-width: 300px;
+	display: none;
+}
+
+#wp247xns_server_notice_preview_close {
+	float: right;
+	color: #72777c;
+}
+
+#wp247xns_server_notice_preview_close:hover {
+	color: #0073aa;
+	cursor: pointer;
+}
+
+#wp247xns_server_notice_preview_content .dashicons-dismiss:hover {
+	color: #c00;
+	cursor: pointer;
+}
